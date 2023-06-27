@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: argocd
 bases:
 - https://github.com/argoproj/argo-cd/manifests/base/notification?ref=v2.3.17
+# - github.com/argoproj-labs/argocd-notifications/manifests/controller?ref=v1.1.1
